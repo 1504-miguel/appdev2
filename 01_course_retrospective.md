@@ -8,7 +8,7 @@
 
 ## 1. What went well
 - I was able to understand and apply **SQA** in our group project, which i think that will my job in the near future.  
-- Our team successfully completed the **the web project**, and pass this semester.  
+- Our team successfully completed the **web project**, and pass this semester.  
 - I improved my **Git and GitHub** knowledge but i need more practice to master it.
 
 ---
