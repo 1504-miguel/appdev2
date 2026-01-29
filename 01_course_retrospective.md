@@ -14,7 +14,7 @@
 ---
 
 ## 2. What went wrong / Challenges
-- I struggled with my role, not because I do not know what i am doing, I am not saying that the developer fault, but what happened is the dev did not deploy the system little bit sooner so i have to cram the testing without sleep, 
+- I found it difficult to fulfill my role, not because I didn't know what I was doing, and I'm not saying it's the dev's fault either, but it took him so long to deploy that he took up my time for testing the system, which was supposed to be 2 weeks according to the Gantt chart, but in reality, it was only 2 days, including his redeployments. I guess that was the challenge for me as an SQA. 
 - I struggle first in my learning in SQA but i did it well
 
 ---
