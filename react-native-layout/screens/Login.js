@@ -1,13 +1,17 @@
 import React from 'react';
-import { View, Text, TextInput, StyleSheet } from 'react-native';
+import { View, Text, TextInput, StyleSheet, TouchableOpacity } from 'react-native';
 
 export default function Login() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Login</Text>
 
-      <TextInput placeholder="Email" style={styles.input}/>
-      <TextInput placeholder="Password" secureTextEntry style={styles.input}/>
+        <TextInput placeholder="Email" style={styles.input}/>
+        <TextInput placeholder="Password" secureTextEntry style={styles.input}/>
+        <TouchableOpacity style={styles.button}>
+        <Text style={styles.buttonText}>Login</Text>
+        </TouchableOpacity>
+
 
     </View>
     
@@ -33,4 +37,18 @@ const styles = StyleSheet.create({
   borderRadius: 8,
   marginTop: 20,
   marginBottom: 15},
+
+  button: {
+  backgroundColor: '#2563EB',
+  padding: 15,
+  borderRadius: 8,
+  alignItems: 'center'
+  },
+  buttonText: {
+  color: '#fff',
+  fontWeight: 'bold'
+  }
+
 });
+
+
