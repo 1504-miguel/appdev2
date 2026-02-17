@@ -7,6 +7,7 @@ export default function Login() {
       <Text style={styles.title}>Login</Text>
 
       <TextInput placeholder="Email" style={styles.input}/>
+      <TextInput placeholder="Password" secureTextEntry style={styles.input}/>
 
     </View>
     
@@ -30,5 +31,6 @@ const styles = StyleSheet.create({
   borderColor: '#ccc',
   padding: 12,
   borderRadius: 8,
-  marginTop: 20},
+  marginTop: 20,
+  marginBottom: 15},
 });
