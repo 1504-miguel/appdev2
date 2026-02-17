@@ -1,12 +1,19 @@
 import React from 'react';
-import { View, Text, TextInput, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, Text, TextInput, StyleSheet, TouchableOpacity, Ionicons  } from 'react-native';
 
 export default function Login() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Login</Text>
 
-        <TextInput placeholder="Email" style={styles.input}/>
+        <View style={styles.inputContainer}>
+        <Ionicons name="mail-outline" size={20} color="#555" />
+        <TextInput
+            placeholder="Email"
+            style={styles.textInput}
+        />
+        </View>
+
         <TextInput placeholder="Password" secureTextEntry style={styles.input}/>
         <TouchableOpacity style={styles.button}>
         <Text style={styles.buttonText}>Login</Text>
@@ -47,7 +54,22 @@ const styles = StyleSheet.create({
   buttonText: {
   color: '#fff',
   fontWeight: 'bold'
-  }
+  },
+  
+  inputContainer: {
+  flexDirection: 'row',
+  alignItems: 'center',
+  borderWidth: 1,
+  borderColor: '#ccc',
+  borderRadius: 8,
+  paddingHorizontal: 10,
+  marginTop: 20
+},
+textInput: {
+  flex: 1,
+  padding: 10,
+  marginLeft: 8
+},
 
 });
 
